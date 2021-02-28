@@ -1,0 +1,68 @@
+html,body{
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+
+#popUp{
+	height:5%;
+	color:white;
+	text-align:center;
+}
+
+.background{
+	background-image:url("back.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:94%;
+}
+
+.information{
+	text-align:center;
+	color:white;
+	background-color:#f44336;
+	margin-top:0px;
+	font-size:large;
+	font-weight:bold;
+}
+
+.login{
+	color:white;
+	margin:0% 0% 0% 60%;	
+}
+
+input[type=text] , input[type=password]{
+	width:30%;
+}
+
+.background input[type=submit] {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 2% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   cursor: pointer;
+}
+
+
+#LogInSpan{
+	margin:0% 0% 0% 75%;
+}
+
+.GoToRegisterPage{
+	color:grey;
+	margin:5% 0% 0% 45%;
+	font-size:large;
+	font-weight:bold;
+}
+
+.footer{
+	text-align:center;
+	background:white;
+	color:red;
+	height:6%;
+	padding:0% 0% 0% 0%;
+	margin:0% 0% 0% 0%;
+}

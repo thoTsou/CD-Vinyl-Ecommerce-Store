@@ -1,0 +1,57 @@
+html,body{
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+
+.background{
+	background-image:url("pic3.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:94%;
+}
+
+#sp1{
+background-color:grey;
+padding:3%;
+color:white;
+}
+
+.userInput{
+	color:black;
+	margin:5% 0% 1% 38%;
+	background-color:#F0FFFF;
+	width:20%;
+	text-align:center;
+	height:75%;
+}
+
+
+.background input[type=submit] {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 3.5% 3.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   cursor: pointer;  
+}
+
+.background input[type=submit]:hover {
+  background-color:green;
+}
+
+input[type=text] , input[type=password]{
+	width:60%;
+}
+
+
+.footer{
+	text-align:center;
+	background:white;
+	color:red;
+	height:6%;
+	padding:0% 0% 0% 0%;
+	margin:0% 0% 0% 0%;
+}

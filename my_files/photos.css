@@ -1,0 +1,89 @@
+html,body{
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+
+.logOut{
+			margin:0% 0% 0% 90%;
+		}
+		
+.logOut>button{
+		border-radius: 12px;
+		color:white;
+		background-color:#4CAF50;
+		border-radius: 12px;
+		border-color:#4CAF50;
+		margin:3% 0% 0% 0%;
+		font-size:large;
+		}
+		
+button:hover{
+			background-color: #f44336;
+			border-color:#f44336;
+			cursor:pointer;
+			color:white;
+		}
+		
+button{
+	border-radius: 12px;
+		color:white;
+		background-color:#4CAF50;
+		border-radius: 12px;
+		border-color:#4CAF50;
+		font-size:large;
+		margin-top:1%;
+}
+		
+.footer{
+	clear:both;
+	text-align:center;
+	background:white;
+	color:red;
+	height:3%;
+	padding:10% 0% 0% 0%;
+	margin:0% 0% 0% 0%;
+}
+
+.uploadPic{
+	padding:2%;
+	border-style:solid;
+	border-color:grey;
+	border-radius:12px;
+	margin:2%;
+	width:34%;
+	
+}
+
+#insertPhoto{
+	padding:1%;
+	background-color:#f44336;
+	color:white;
+	font-size:large;
+}
+
+.box{
+	display: flex;
+  flex-direction: column;
+  background-color: #f44336;
+  border-radius:12px;
+  width:75%;
+  margin-left:13%;
+  
+}
+
+.picture{
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 3%;
+  text-align: left;
+  width:90%;
+  padding:1%;
+  border-radius:12px;
+  text-align:center;
+}
+
+img{
+	height:25%;
+	width:25%;
+}

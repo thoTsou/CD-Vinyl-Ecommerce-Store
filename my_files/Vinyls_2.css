@@ -1,0 +1,190 @@
+html,body{
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+
+.logOut{
+			margin:0% 0% 0% 90%;
+		}
+		
+.logOut>button{
+		border-radius: 12px;
+		color:white;
+		background-color:#4CAF50;
+		border-radius: 12px;
+		border-color:#4CAF50;
+		margin:3% 0% 0% 0%;
+		font-size:large;
+		}
+		
+button:hover{
+			background-color: #f44336;
+			border-color:#f44336;
+			cursor:pointer;
+			color:white;
+		}
+		
+button{
+	border-radius: 12px;
+		color:white;
+		background-color:#4CAF50;
+		border-radius: 12px;
+		border-color:#4CAF50;
+		font-size:large;
+		margin-top:1%;
+}
+		
+.footer{
+	clear:both;
+	text-align:center;
+	background:white;
+	color:red;
+	height:3%;
+	padding:10% 0% 0% 0%;
+	margin:0% 0% 0% 0%;
+}
+
+.box {
+  display: flex;
+  background-color: #f44336;
+  flex-wrap: wrap;
+  margin-top:3%;
+  margin-left:2.5%;
+  width:95%;
+  border-radius:12px;
+}
+
+.product  {
+  background-color: #f1f1f1;
+  margin-top:4%;
+  margin-bottom:4%;
+  margin-left:2%;
+  margin-right:2%;
+  padding: 1%;
+  font-size: 1em;
+  width:25%;
+  text-align:center;
+  border-radius:12px;
+  font-size:large;
+}
+
+.productImg{
+	height:60%;
+	width:80%;
+}
+
+.productsButtons{
+	padding-top:1%;
+	padding-left:3%;
+}
+
+#cartImg{
+	height:35%;
+	width:25%;
+	margin-right:30%;
+	float:right;
+}
+
+.cart{
+	border-style:solid;
+	border-color:grey;
+	margin:2%;
+	height:105%;
+	padding:1%;
+	border-radius:12px;
+}
+
+.inCart{
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  margin:1%;
+  border-radius:12px;
+}
+
+.inCart>div{
+  padding:1%;
+}
+
+.orderDetails{
+	padding:2%;
+	margin-top:1%;
+	text-align:left;
+}
+
+#up{
+	visibility:hidden;
+	height:100%;
+}
+
+#inputSpans1,#inputSpans2,#inputSpans3,#inputSpans4,#inputSpans5,#inputSpans6,#inputSpans7{
+	visibility:hidden;
+	border-radius:12px;
+	background-color:red;
+	color:white;
+}
+
+#orderComplete{
+	visibility:hidden;
+	border-radius:12px;
+	background-color:green;
+	color:white;
+}
+
+.background{
+	background: url('speakers.jpg') no-repeat;
+    background-size: 100%;
+	color:white;
+}
+
+#orderHeader{
+	font-size:large;
+	background-color:#f44336;
+	border-radius:12px;
+	padding:0.5%;
+}
+
+input[type="checkbox"]{
+  width: 2em; 
+  height: 2em; 
+}
+
+.paymentMethod{
+	padding:2%;
+	margin-top:1%;
+	text-align:left;
+	color:black;
+	background-color:#f44336;
+	border-radius:12px;
+	width:95%;
+	margin-left:1%;
+}
+
+#finishForm{
+	color:black;
+	background-color:#f1f1f1;
+	border-radius:12px;
+	padding:1%;
+}
+
+#paymentHeader{
+	font-size:large;
+	background-color:white;
+	border-radius:12px;
+	padding:0.5%;
+}
+
+#down{
+	visibility:hidden;
+	height:0%;
+	margin-top:0%;
+}
+
+#sp1{
+	margin-left:14%;
+}
+
+#sp4{
+	margin-left:4%;
+}
